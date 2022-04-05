@@ -1,0 +1,20 @@
+---
+reddit_api:
+  client_id: CLIENT_ID
+  client_secret: VERYSECURESECRET
+  user_agent: "my user agent"
+
+email:
+  sender_address: email@provider.xyz
+  sender_password: verysecurepassword
+  spoiler_recipients:
+    - totallyreal@email.com
+    - totallyreal2@email.com
+  chapter_recipients:
+    - nospoilers@me.com
+    - totallyreal@email.com
+    - totallyreal2@email.com
+
+nb_files:
+  spoiler: spoiler_nb.txt
+  chapter: chapter_nb.txt
